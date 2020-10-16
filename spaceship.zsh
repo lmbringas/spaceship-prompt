@@ -80,7 +80,7 @@ fi
 
 if [ -z "$SPACESHIP_RPROMPT_ORDER" ]; then
   SPACESHIP_RPROMPT_ORDER=(
-    # empty by default
+    git_time
   )
 fi
 
